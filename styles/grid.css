@@ -1,0 +1,19 @@
+@import "./styles.css";
+
+main {
+    display: grid;
+    grid-template-areas: 
+    "navside doc doc doc"
+    "navside doc doc doc";
+    position: relative;
+    top: 4rem;
+}
+
+.nav-side {
+    grid-area: navside;
+}
+
+.doc {
+    grid-area: doc;
+    padding-left: 1rem;
+}

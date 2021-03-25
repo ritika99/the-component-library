@@ -1,0 +1,64 @@
+@import "./styles.css";
+
+.input-field {
+    position: relative;
+    margin: 0.2rem;
+    padding: 0.5rem;
+    padding-top: 1.5rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 0.25rem;
+    width: fit-content;
+}
+
+.input-text {
+    font-size: 1rem;
+    border: none;
+    width: 19rem;
+    outline: none;
+}
+
+.input-text:hover {
+    border-color: var(--hover-color);
+}
+
+.label-input-text {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0.5rem;
+    width: 100%;
+    color: var(--primary-color);
+    transition: 0.2s all;
+    cursor: text;
+}
+
+input:focus~label,
+input:valid~label {
+    font-size: 0.875rem;
+    top: 0.5rem;
+    color: var(--hover-color);
+} 
+
+/* search bar */
+.input-icon-text {
+    align-content: center;
+    padding: 0.25rem 0.75rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 0.25rem;
+    width: fit-content;
+    margin: 0.2rem;
+}
+
+.icon-search {
+    color: var(--primary-color);
+}
+
+.input-icon-text .input-text {
+    font-size: 1rem;
+    border: none;
+    padding: 0.5rem;
+    padding-left: 0.5rem;
+    width: fit-content;
+    max-width: 16rem;
+    outline: none;
+}
+

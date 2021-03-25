@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+
+</head>
+
+<body>
+    <h3>Buttons</h3>
+    <div class="container">
+        <div class="container container-flex">
+            <button class="btn btn-primary">Primary</button>
+            <button class="btn btn-primary-dark">Primary Dark</button>
+            <button class="btn btn-success">Success</button>
+            <button class="btn btn-danger">Danger</button>
+            <button class="btn btn-warning">Warning</button>
+            <button class="btn btn-info">Info</button>
+            <button class="btn btn-dark">Dark</button>
+            <button class="btn btn-light">Light</button>
+            <button class="btn btn-link" href="#">Link</button>
+        </div>
+
+        <small>Outlined button</small>
+        <div class="container container-flex">
+            <button class="btn btn-outlined">Secondary</button>
+            <button class="btn btn-secondary-dark">Secondary Dark</button>
+            <button class="btn btn-outlined-success">Success</button>
+            <button class="btn btn-outlined-danger">Danger</button>
+            <button class="btn btn-outlined-warning">Warning</button>
+            <button class="btn btn-outlined-info">Info</button>
+            <button class="btn btn-outlined-dark">Dark</button>
+            <button class="btn btn-outlined-light">Light</button>
+        </div>
+
+        <small>Disabled button</small>
+        <div class="container">
+            <button class="btn btn-primary disabled">Disabled</button>
+            <button class="btn btn-outlined disabled">Disabled</button>
+        </div>
+
+        <small>Size button</small>
+        <div class="container">
+            <button class="btn btn-primary btn-sm">Small</button>
+            <button class="btn btn-outlined btn-sm">Small</button>
+            <button class="btn btn-primary btn-lg">Large</button>
+            <button class="btn btn-outlined btn-lg">Large</button>
+        </div>
+
+        <h3>Button icon</h3>
+        <div class="container">
+            <button class="btn btn-text-primary"><i class="fa fa-home"></i></button>
+            <button class="btn btn-text-primary"><i class="fa fa-bars"></i></button>
+            <button class="btn btn-text-primary"><i class="fa fa-trash"></i></button>
+            <button class="btn btn-text-primary"><i class="fas fa-times"></i></button>
+            <button class="btn btn-text-primary"><i class="fa fa-folder"></i></button>
+        </div>
+        <small>Circular button icon</small>
+        <div class="container">
+            <button class="btn btn-primary btn-round"><i class="fa fa-home"></i></button>
+            <button class="btn btn-primary btn-round"><i class="fa fa-bars"></i></button>
+            <button class="btn btn-primary btn-round"><i class="fa fa-trash"></i></button>
+            <button class="btn btn-primary btn-round"><i class="fas fa-times"></i></button>
+            <button class="btn btn-primary btn-round"><i class="fa fa-folder"></i></button>
+        </div>
+
+        <h3>Floating Action Button</h3>
+        <small>Look at the bottom-right corner.</small>
+
+        <div class="container container-flex">
+            <div class="sbtn-primary-floating">
+                <button class="btn btn-primary btn-round"><i class="fas fa-plus"></i></button>
+            </div>
+
+            <div class="btn-outlined-floating">
+                <button class="btn btn-outlined btn-round"><i class="fas fa-pen"></i></button>
+            </div>
+        </div>
+
+        <div class="btn-outlined-floating">
+            <button class="btn btn-outlined btn-round btn-floating"><i class="fas fa-plus"></i></button>
+        </div>
+
+        <h3>Button group</h3>
+        <div class="container container-flex">
+            <div class="btn-group">
+                <button class="btn btn-primary">Left</button>
+                <button class="btn btn-primary">Middle</button>
+                <button class="btn btn-primary">Right</button>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-primary-dark">Left</button>
+                <button class="btn btn-primary-dark">Middle</button>
+                <button class="btn btn-primary-dark">Right</button>
+            </div>
+        </div>
+
+        <small>Outlined button group</small>
+        <div class="container container-flex">
+            <div class="btn-group">
+                <button class="btn btn-outlined">Left</button>
+                <button class="btn btn-outlined">Middle</button>
+                <button class="btn btn-outlined">Right</button>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-secondary-dark">Left</button>
+                <button class="btn btn-secondary-dark">Middle</button>
+                <button class="btn btn-secondary-dark">Right</button>
+            </div>
+        </div>
+
+        <small>Size button group</small>
+        <div class="container container-flex">
+            <div class="btn-group">
+                <button class="btn btn-primary btn-sm">Left</button>
+                <button class="btn btn-primary btn-sm">Middle</button>
+                <button class="btn btn-primary btn-sm">Right</button>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-outlined btn-lg">Left</button>
+                <button class="btn btn-outlined btn-lg">Middle</button>
+                <button class="btn btn-outlined btn-lg">Right</button>
+            </div>
+        </div>
+    </div>
+
+    <h3>Avatars</h3>
+    <div class="container">
+        <div class="container container-flex">
+            <img class="avatar" src="/images/animoji_dark.png">
+            <img class="avatar avatar-outlined" src="/images/animoji.png">
+        </div>
+
+        <small>Size avatar</small>
+        <div class="container container-flex">
+            <img class="avatar avatar-sm" src="/images/animoji_dark.png">
+            <img class="avatar" src="/images/animoji_dark.png">
+            <img class="avatar avatar-lg" src="/images/animoji_dark.png">
+            <img class="avatar avatar-xl" src="/images/animoji_dark.png">
+            <img class="avatar avatar-outlined avatar-xl" src="/images/animoji.png">
+            <img class="avatar avatar-outlined avatar-lg" src="/images/animoji.png">
+            <img class="avatar avatar-outlined" src="/images/animoji.png">
+            <img class="avatar avatar-outlined avatar-sm" src="/images/animoji.png">
+        </div>
+
+        <h3>Avatar group</h3>
+        <div class="container container-flex">
+            <div class="avatar-group">
+                <img class="avatar" src="/images/animoji_dark.png">
+                <span class="avatar-relative">
+                    <img class="avatar" src="/images/animoji_dark.png">
+                    <span class="avatar-relative">
+                        <img class="avatar" src="/images/animoji_dark.png">
+                        <span class="avatar-relative">
+                            <img class="avatar" src="/images/animoji_dark.png"></span>
+                    </span></span>
+            </div>
+
+            <div class="avatar-outlined-group">
+                <img class="avatar avatar-outlined" src="/images/animoji.png">
+                <span class="avatar-relative">
+                    <img class="avatar avatar-outlined" src="/images/animoji.png">
+                    <span class="avatar-relative">
+                        <img class="avatar avatar-outlined" src="/images/animoji.png">
+                        <span class="avatar-relative">
+                            <img class="avatar avatar-outlined" src="/images/animoji.png"></span>
+                    </span></span>
+            </div>
+        </div>
+    </div>
+
+    <h3>Badge</h3>
+    <div class="container">
+        <small>Notification</small>
+        <div class="container container-flex">
+            <div class="avatar-badge-status">
+                <img class="avatar" src="/images/animoji_dark.png">
+                <span class="badge">O</span>
+            </div>
+
+            <div class="avatar-outlined-badge-status">
+                <img class="avatar avatar-outlined" src="/images/animoji.png">
+                <span class="badge">.</span>
+            </div>
+        </div>
+
+        <div class="container container-flex">
+            <div class="avatar-badge-notification">
+                <img class="avatar" src="/images/animoji_dark.png">
+                <span class="badge">.</span>
+            </div>
+
+            <div class="avatar-outlined-badge-notification">
+                <img class="avatar avatar-outlined" src="/images/animoji.png">
+                <span class="badge">.</span>
+            </div>
+        </div>
+
+        <div class="container container-flex">
+            <div class="icon-badge-notification">
+                <img class="avatar" src="/images/animoji_dark.png">
+                <span class="badge">.</span>
+            </div>
+        </div>
+    </div>
+
+    <h3>Alert</h3>
+    <div class="container">
+        <div class="alert alert-primary">
+            <p>Alert! This is an alert with link.</p>
+            <span class="icon-cross"><i class="fas fa-times"></i>
+            </span>
+        </div>
+
+        <div class="alert alert-success">
+            <p>Success! Indicates a successful or positive action.</p>
+            <span class="icon-cross"><i class="fas fa-times"></i>
+            </span>
+        </div>
+
+        <div class="alert alert-danger">
+            <p>Danger! Indicates a dangerous or potentially negative action.</p>
+            <span class="icon-cross"><i class="fas fa-times"></i>
+            </span>
+        </div>
+
+        <div class="alert alert-warning">
+            <p>Warning! Indicates a warning that might need attention.</p>
+            <span class="icon-cross"><i class="fas fa-times"></i>
+            </span>
+        </div>
+
+        <div class="alert alert-info">
+            <p>Info! Indicates a neutral informative change or action.</p>
+            <span class="icon-cross"><i class="fas fa-times"></i>
+            </span>
+        </div>
+    </div>
+
+    <h3>Cards</h3>
+    <small>Card with badges</small>
+    <div class="container container-flex">
+        <div class="card-vertical">
+            <div card-header>
+                <img class="card-image" src="./images/product.jpg">
+            </div>
+            <div>
+                <div class="card-text">
+                    <h3>Summer | Eyeshadow Single</h3>
+                    <small>MRP: <strong>₹412 </strong><span class="text-stricked">₹549</span><span class="text-colored">
+                            (25% off)</span></small>
+                    <!-- <span>stars<small>5 Reviews</small></span> -->
+                </div>
+                <div class="card-button">
+                    <button class="btn btn-text-primary"><i class="far fa-heart"></i></button>
+                    <button class="btn btn-primary">Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-vertical card-vertical-badge">
+            <div card-header>
+                <img class="card-image" src="./images/product.jpg">
+                <span class="card-badge">New</span>
+            </div>
+            <div>
+                <div class="card-text">
+                    <h3>Summer | Eyeshadow Single</h3>
+                    <small>MRP: <strong>₹412 </strong><span class="text-stricked">₹549</span><span class="text-colored">
+                            (25% off)</span></small>
+                </div>
+                <div class="card-button">
+                    <button class="btn btn-text-primary"><i class="far fa-heart"></i></button>
+                    <button class="btn btn-primary">Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-vertical card-vertical-badge">
+            <div card-header>
+                <img class="card-image" src="./images/product.jpg">
+                <span class="card-badge">Offer</span>
+            </div>
+            <div>
+                <div class="card-text">
+                    <h3>Summer | Eyeshadow Single</h3>
+                    <small>MRP: <strong>₹412 </strong><span class="text-stricked">₹549</span><span class="text-colored">
+                            (25% off)</span></small>
+                </div>
+                <div class="card-button">
+                    <button class="btn btn-text-primary"><i class="far fa-heart"></i></button>
+                    <button class="btn btn-primary">Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <small>Card with dismiss</small>
+    <div class="container container-flex">
+        <div class="card-vertical card-dismiss">
+            <div card-header>
+                <img class="card-image" src="./images/product.jpg">
+                <span class="icon-cross"><i class="fas fa-times"></i>
+                </span>
+            </div>
+            <div>
+                <div class="card-text">
+                    <h3>Summer | Eyeshadow Single</h3>
+                    <small>MRP: <strong>₹412 </strong><span class="text-stricked">₹549</span><span class="text-colored">
+                            (25% off)</span></small>
+                </div>
+                <div class="card-button">
+                    <button class="btn btn-text-primary"><i class="far fa-heart"></i></button>
+                    <button class="btn btn-primary">Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-vertical card-vertical-badge card-dismiss">
+            <div card-header>
+                <img class="card-image" src="./images/product.jpg">
+                <span class="card-badge">Trending</span>
+                <span class="icon-cross"><i class="fas fa-times"></i>
+                </span>
+            </div>
+            <div>
+                <div class="card-text">
+                    <h3>Summer | Eyeshadow Single</h3>
+                    <small>MRP: <strong>₹412 </strong><span class="text-stricked">₹549</span><span class="text-colored">
+                            (25% off)</span></small>
+                </div>
+                <div class="card-button">
+                    <button class="btn btn-text-primary"><i class="far fa-heart"></i></button>
+                    <button class="btn btn-primary">Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <small>Card with shadow</small>
+    <div class="container container-flex">
+        <div class="card-vertical card-dismiss box-shadow">
+            <div card-header>
+                <img class="card-image" src="./images/product.jpg">
+                <span class="icon-cross"><i class="fas fa-times"></i>
+                </span>
+            </div>
+            <div>
+                <div class="card-text">
+                    <h3>Summer | Eyeshadow Single</h3>
+                    <small>MRP: <strong>₹412 </strong><span class="text-stricked">₹549</span><span class="text-colored">
+                            (25% off)</span></small>
+                </div>
+                <div class="card-button">
+                    <button class="btn btn-text-primary"><i class="far fa-heart"></i></button>
+                    <button class="btn btn-primary">Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-vertical card-verrtical-badge box-shadow">
+            <div card-header>
+                <img class="card-image" src="./images/product.jpg">
+                <span class="card-badge">Exclusive</span>
+            </div>
+            <div>
+                <div class="card-text">
+                    <h3>Summer | Eyeshadow Single</h3>
+                    <small>MRP: <strong>₹412 </strong><span class="text-stricked">₹549</span><span class="text-colored">
+                            (25% off)</span></small>
+                </div>
+                <div class="card-button">
+                    <button class="btn btn-text-primary"><i class="far fa-heart"></i></button>
+                    <button class="btn btn-primary">Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-vertical card-vertical-badge box-shadow-hover card-dismiss">
+            <div card-header>
+                <img class="card-image" src="./images/product.jpg">
+                <span class="card-badge">Offer</span>
+                <span class="icon-cross"><i class="fas fa-times"></i>
+                </span>
+            </div>
+            <div>
+                <div class="card-text">
+                    <h3>Summer | Eyeshadow Single</h3>
+                    <small>MRP: <strong>₹412 </strong><span class="text-stricked">₹549</span><span class="text-colored">
+                            (25% off)</span></small>
+                </div>
+                <div class="card-button">
+                    <button class="btn btn-text-primary"><i class="far fa-heart"></i></button>
+                    <button class="btn btn-primary">Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <small>Card horizontal</small>
+    <div class="container container-flex">
+        <div class="card-horizontal card-dismiss box-shadow">
+            <div card-header>
+                <img class="card-horizontal-image" src="./images/product.jpg">
+                <span class="icon-cross"><i class="fas fa-times"></i>
+                </span>
+            </div>
+            <div class="card-horizontal-description">
+                <div class="card-horizontal-text">
+                    <h3>Summer | Eyeshadow Single</h3>
+                    <small>MRP: <strong>₹412 </strong><span class="text-stricked">₹549</span><span class="text-colored">
+                            (25% off)</span></small>
+                </div>
+                <div class="card-button">
+                    <button class="btn btn-text-primary"><i class="far fa-heart"></i></button>
+                    <button class="btn btn-primary">Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-horizontal card-horizontal-badge box-shadow-hover">
+            <div card-header>
+                <img class="card-horizontal-image" src="./images/product.jpg">
+                <span class="card-badge">Offer</span>
+            </div>
+            <div class="card-horizontal-description">
+                <div class="card-horizontal-text">
+                    <h3>Summer | Eyeshadow Single</h3>
+                    <small>MRP: <strong>₹412 </strong><span class="text-stricked">₹549</span><span class="text-colored">
+                            (25% off)</span></small>
+                </div>
+                <div class="card-button">
+                    <button class="btn btn-text-primary"><i class="far fa-heart"></i></button>
+                    <button class="btn btn-primary">Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <small>Card with avatar</small>
+    <div class="container container-flex">
+        <div class="card-vertical card-avatar">
+            <div class="card-header">
+                <img class="card-image" src="./images/video-thumbnail.png">
+                <span class="card-badge-bottom">3:58</span>
+            </div>
+            <div class="card-description">
+                <div class="card-description-avatar">
+                    <img class="avatar" src="/images/animoji_dark.png">
+                </div>
+                <div class="card-text">
+                    <strong>
+                        PUBLIC - Make You Mine (Official Lyric Video)
+                    </strong>
+                    <small> PUBLICTHEBAND</small>
+                    <small>52M views | 1 year ago</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-vertical card-avatar box-shadow-hover">
+            <div class="card-header">
+                <img class="card-image" src="./images/video-thumbnail.png">
+                <span class="card-badge-bottom">3:58</span>
+            </div>
+            <div class="card-description">
+                <div class="card-description-avatar">
+                    <img class="avatar" src="/images/animoji_dark.png">
+                </div>
+                <div class="card-text">
+                    <strong>
+                        PUBLIC - Make You Mine (Official Lyric Video)
+                    </strong>
+                    <small> PUBLICTHEBAND</small>
+                    <small>52M views | 1 year ago</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-vertical card-avatar box-shadow">
+            <div class="card-header">
+                <img class="card-image" src="./images/video-thumbnail.png">
+                <span class="card-badge-bottom">3:58</span>
+            </div>
+            <div class="card-description">
+                <div class="card-description-avatar">
+                    <img class="avatar avatar-outlined" src="/images/animoji.png">
+                </div>
+                <div class="card-text">
+                    <strong>
+                        PUBLIC - Make You Mine (Official Lyric Video)
+                    </strong>
+                    <small> PUBLICTHEBAND</small>
+                    <small>52M views | 1 year ago</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <small>Card disabled</small>
+    <div class="container container-flex">
+        <div class="card-horizontal card-dismiss card-inactive">
+            <div card-header>
+                <img class="card-horizontal-image" src="./images/product.jpg">
+                <span class="icon-cross"><i class="fas fa-times"></i>
+                </span>
+            </div>
+            <div class="card-horizontal-description">
+                <div class="card-horizontal-text">
+                    <h3>Summer | Eyeshadow Single</h3>
+                    <small>MRP: <strong>₹412 </strong><span class="text-stricked">₹549</span><span class="text-colored">
+                            (25% off)</span></small>
+                </div>
+                <div class="card-button">
+                    <button class="btn btn-text-primary"><i class="far fa-heart"></i></button>
+                    <button class="btn btn-primary">Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <small>Card text only</small>
+    <div class="container container-flex">
+        <div class="card-textise box-shadow-hover">
+            <h2 class="title text-colored">Title</h2>
+            <strong class="subtitle">Subtitle</strong>
+            <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi qui incidunt reprehenderit repudiandae ab consequatur numquam aut adipisci reiciendis, odit asperiores itaque consequuntur tempore sunt id! Ipsa sequi unde consequuntur!</p>
+        </div>
+    </div>
+
+    <small>Card overlay</small>
+    <div class="container container-flex">
+        <div class="card-overlay card-textise box-shadow-hover">
+            <img class="card-image" src="./images/video-thumbnail.png">
+            <h2 class="title text-colored">Title</h2>
+            <strong class="subtitle">Subtitle</strong>
+            <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi qui incidunt reprehenderit repudiandae ab consequatur, odit asperiores itaque consequuntur tempore sunt id! Ipsa sequi unde consequuntur!</p>
+        </div>
+    </div>
+
+    <!-- Image responsive -->
+    <h3>Image</h3>
+    <small>Responsive and rounded image</small>
+    <div class="container container-flex-column">
+        <img class="image-responsive" src="images/cover-image-cat.jpeg">
+
+        <img class="image-responsive image-round" src="images/cover-image-cat.jpeg">
+    </div>
+
+    <!-- input  -->
+    <h3>Input</h3>
+    <div class="container">
+        <form class="form" action="">
+            <div class="input-field">
+              <input class="input-text" id="name" required />
+              <label class="label-input-text" for="name">Name</label>
+            </div>
+        </form>
+    
+        <form class="form" action="">
+            <div class="input-field">
+              <input class="input-text" type="email" id="email" required />
+              <label class="label-input-text" for="email">Email</label>
+            </div>
+        </form>
+    
+        <div class="input-icon-text">
+            <span class="icon-search"><i class="fas fa-search"></i></span>
+            <input class="input-text" type="text" placeholder="Search"></body>
+        </div>
+    </div>
+    
+    <!-- list -->
+    <h3>List</h3>
+    <div class="container">
+        <small>Unordered list</small>
+        <div class="container container-flex">
+            <ul class="list">
+                <li class="colored-list bullet">
+                    List item 1
+                </li>
+                <li class="colored-list bullet">
+                    List item 2
+                </li>
+                <li class="colored-list bullet">
+                    List item 3
+                </li>
+                <li class="colored-list bullet">
+                    List item 4
+                </li>
+            </ul>
+    
+            <ul class="list list-unordered">
+                <li class="colored-list arrow">
+                    List item 1
+                </li>
+                <li class="colored-list arrow">
+                    List item 2
+                </li>
+                <li class="colored-list arrow">
+                    List item 3
+                </li>
+                <li class="colored-list arrow">
+                    List item 4
+                </li>
+            </ul>
+        </div>
+    
+        <small>Ordered list</small>
+        <div class="container container-flex">
+            <ol class="list list-ordered">
+                <li class="colored-list number">
+                    Ordered list item 1
+                </li>
+                <li class="colored-list number">
+                    Ordered list item 2
+                </li>
+                <li class="colored-list number">
+                    Ordered list item 3
+                </li>
+                <li class="colored-list number">
+                    Ordered list item 4
+                </li>
+            </ol>
+        
+            <ol class="list list-ordered reverse" reversed>
+                <li class="colored-list number number-reverse">
+                    Reverse ordered list item 1
+                </li>
+                <li class="colored-list number number-reverse">
+                    Reverse ordered list item 2
+                </li>
+                <li class="colored-list number number-reverse">
+                    Reverse ordered list item 3
+                </li>
+                <li class="colored-list number number-reverse">
+                    Reverse ordered list item 4
+                </li>
+            </ol>
+        </div>
+    
+        <small>Unstyled list</small>
+        <div class="container container-flex">
+            <ul class="list">
+                <li class="colored-list">
+                    List item 1
+                </li>
+                <li class="colored-list">
+                    List item 2
+                </li>
+                <li class="colored-list">
+                    List item 3
+                </li>
+                <li class="colored-list">
+                    List item 4
+                </li>
+            </ul>
+        </div>
+    
+        <small>Inline list</small>
+        <div class="container container-flex">
+            <ul class="list list-inline">
+                <li class="colored-list inline-list">
+                    Inline list item 1
+                </li>
+                <li class="colored-list inline-list">
+                    Inline list item 2
+                </li>
+                <li class="colored-list inline-list">
+                    Inline list item 3
+                </li>
+                <li class="colored-list inline-list">
+                    Inline list item 4
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <h3>Navigation</h3>
+    <nav class="nav">
+        <div class="nav-container para-text-lg">
+            <div class="nav-left">
+                <div class="nav-brand">
+                    <!-- <img src="/"> -->
+                    <h2 class="nav-brand-heading"><i class="fab fa-buromobelexperte"></i>Satik<span class="text-colored-dark">UI</span></h2>
+                </div>
+                <div class="nav-menu">
+                    <ul class="list list-inline">
+                        <li class="nav-pill colored-list inline-list">
+                            Home
+                        </li>
+                        <li class="nav-pill colored-list inline-list">
+                            Products
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-right">
+                <div class="input-icon-text">
+                    <span class="icon-search"><i class="fas fa-search"></i></span>
+                    <input class="input-text" type="text" placeholder="Search"></body>
+                </div>
+                <div class="">
+
+                </div>
+                    <ul class="list list-inline">
+                        <li class="colored-list inline-list">
+                            <span class="nav-icon nav-pill"><i class="fas fa-heart"></i></span>
+                        </li>
+                        <li class="colored-list inline-list">
+                            <span class="nav-icon nav-pill"><i class="fas fa-shopping-cart"></i></span>
+                        </li>
+                        <li class="colored-list inline-list">
+                            <span class="nav-icon nav-pill"><i class="fas fa-user-circle"></i></span>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Typography -->
+    <h3>Typography</h3>
+    <small>Heading</small>
+    <div class="container">
+        <h1>Heading h1</h1>
+        <h2>Heading h2</h2>
+        <h3>Heading h3</h3>
+        <h4>Heading h4</h4>
+        <h5>Heading h5</h5>
+        <h6>Heading h6</h6>
+    </div>
+
+    <small>Paragraph</small>
+    <div class="container">
+        <p>This is a paragraph text.</p>
+        <p class="para-text-sm">This is a small paragraph text.</p>
+        <p class="para-text-md">This is a medium paragraph text.</p>
+        <p class="para-text-rg">This is a regular paragraph text.</p>
+        <p class="para-text-lg">This is a large paragraph text.</p>
+    </div>
+
+    <small>Text alignment</small>
+    <div class="container">
+        <h3 class="text-left">Text align left!</h3>
+        <h3 class="text-centre">Text align centre!</h3>
+        <h3 class="text-right">Text align right!</h3>
+        <p class="text-justify">Text align justify. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nemo dolores quae sequi perspiciatis iusto tempore asperiores sapiente expedita culpa cumque aliquam error maiores vitae eum, quidem inventore magni excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consectetur deleniti optio labore iste suscipit quo quisquam temporibus reprehenderit perspiciatis ex, harum velit? Reiciendis ratione, eligendi veritatis voluptates illum distinctio.</p>
+    </div>
+
+    <small>Decorated text</small>
+    <div class="container">
+        <h1 class="text-colored">This is a colored heading</h1>
+        <p class="text-colored">This is a colored paragraph text.</p>
+        <p class="text-line-through text-light">This is a striked through text.</p>
+        <p>This is a <span class="text-highlight">  highlighted</span> text.</p>
+        <p class="text-bold">This is a bold text.</p>
+        <p class="text-light">This is a light weight text.</p>
+    </div>
+
+</body>
+
+</html>

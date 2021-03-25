@@ -1,0 +1,17 @@
+:root {
+    --primary-color: #F43F5E;
+    --secondary-color: #FECDD3;
+    --hover-color: #E11D48;
+    --visited-color: #BE123C;
+    --primary-dark-color: #0d1117;
+    --secondary-dark-color: #212528;
+    --light-gray: #3f4049;
+    --white-color: #ffffff;
+    --light-color: #f8f9fa;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #007bff;
+    --shadow-color: #d1d5db;
+}
+

@@ -1,0 +1,53 @@
+@import "./styles.css";
+
+.list {
+    list-style: none;
+    padding-left: 0rem;
+}
+
+.colored-list::before {
+    color: var(--primary-color);
+}
+
+.arrow::before {
+    content: "►"; 
+}
+
+.bullet::before {
+    content: "\25CF"; 
+}
+
+.list-ordered {
+    counter-reset: counter;
+}
+
+.number {
+    counter-increment: counter;
+}
+
+.number::before {
+    content: counter(counter) ". ";
+}
+
+/* {{ items.length + 1 }} */
+.reverse {
+    counter-reset: decounter 5;
+}
+
+.number-reverse {
+    counter-increment: decounter -1;
+}
+
+.number-reverse::before {
+    content: counter(decounter) ". ";
+}
+
+
+.list-inline {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inline-list {
+    margin-left: 1rem;
+}

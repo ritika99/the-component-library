@@ -1,0 +1,15 @@
+@import "./styles.css";
+
+.image-responsive {
+    width: 100%;
+    max-width: 40rem;
+    height: autos;
+    margin: 0.2rem;
+}
+
+.image-round {
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+    margin: 0.2rem;
+}

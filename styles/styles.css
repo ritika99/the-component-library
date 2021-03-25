@@ -1,0 +1,70 @@
+@import "root.css";
+@import "button.css";
+@import "avatar.css";
+@import "badge.css";
+@import "toast.css";
+@import "alert.css";
+@import "card.css";
+@import "input.css";
+@import "list.css";
+@import "image.css";
+@import "navbar.css";
+@import "typography.css";
+@import "grid.css";
+@import "main.css";
+
+
+.container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 1rem;
+    align-items: center;
+}
+
+.container-flex-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: 1rem;
+    align-items: center;
+}
+
+.container {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.container-inside {
+    padding: 0.5rem 1rem;
+    margin: auto;
+    max-width: 64rem;
+}
+
+body {
+    /* background-color: var(--primary-dark-color);
+    color: white; */
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    margin: 0rem;
+}
+
+.code-snippet-iframe {
+    text-align: center;
+    margin: 1rem;
+}
+
+.code-snippet-iframe iframe {
+    width: 48rem;
+    max-height: 14rem; 
+    border: 0; 
+    transform: scale(1); 
+    overflow:scroll;
+    width: 100%;
+    height: 100%;
+}
+
+hr {
+    color: var(--light-gray);
+}

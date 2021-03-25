@@ -1,0 +1,54 @@
+@import "./styles.css";
+
+.para-text-sm {
+    font-size: 0.75rem;
+}
+
+.para-text-md {
+    font-size: 0.875rem;
+}
+
+.para-text-rg {
+    font-size: 1rem;
+}
+
+.para-text-lg {
+    font-size: 1.2rem;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-centre {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-colored {
+    color: var(--primary-color);
+}
+
+.text-line-through {
+    text-decoration: line-through var(--hover-color);
+    color: var(--light-gray);
+}
+
+.text-highlight {
+    background-color: var(--secondary-color);
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-light {
+    font-weight: lighter;
+}

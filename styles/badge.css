@@ -1,0 +1,11 @@
+@import "./styles.css";
+
+.badge {
+    border-radius: 50%;
+    border: 2px solid var(--white-color);
+    background-color: var(--secondary-color);
+    padding: 1px;
+    position: relative;
+    bottom: 2rem;
+    right: 1rem;
+}
