@@ -1,8 +1,0 @@
-@import "./styles.css";
-
-.modal {
-    border: 1px solid var(--primary-color);
-    border-radius: 0.25rem;
-    margin: 0.2rem;
-    padding: 1rem;
-}

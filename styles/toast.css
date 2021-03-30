@@ -1,1 +1,54 @@
 @import "./styles.css";
+
+@import "./styles.css";
+
+.toast {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid var(--secondary-dark-color);
+    background-color: inherit;
+    margin: 0.2rem;
+    width: fit-content;
+}
+
+.toast p {
+    margin: 0rem;
+    margin-right: 1rem;
+}
+
+.toast-primary {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.toast-success {
+    color: var(--white-color);
+    background-color: var(--success-color);
+    border-color: var(--success-color);
+}
+
+.toast-danger {
+    color: var(--white-color);
+    background-color: var(--danger-color);
+    border-color: var(--danger-color);
+}
+
+.toast-warning {
+    color: var(--white-color);
+    background-color: var(--warning-color);
+    border-color: var(--warning-color);
+}
+
+.toast-info {
+    color: var(--white-color);
+    background-color: var(--info-color);
+    border-color: var(--info-color);
+}
+
+.icon-cross:hover {
+    color: var(--secondary-dark-color);
+}

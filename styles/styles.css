@@ -76,3 +76,7 @@ body {
 hr {
     color: var(--light-gray);
 }
+
+.no-margin {
+    margin: 0rem;
+}
