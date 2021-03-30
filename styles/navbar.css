@@ -6,6 +6,7 @@
     margin: 0rem;
     margin-bottom: 1rem;
     box-shadow: 0 8px 10px -6px var(--shadow-color);
+    z-index: 1;
 }
 
 .nav-container {

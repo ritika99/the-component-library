@@ -5,8 +5,8 @@ main {
     grid-template-areas: 
     "navside doc doc doc"
     "navside doc doc doc";
-    position: relative;
     top: 4rem;
+    position: relative;
 }
 
 .nav-side {
@@ -15,5 +15,39 @@ main {
 
 .doc {
     grid-area: doc;
+    padding: 0rem 1rem;
+}
+
+.main-getting-started {
+    display: grid;
+    grid-template-areas: 
+    "img img intro intro"
+    "install install install install";
+    top: 4rem;
+    position: relative;
+}
+
+.main-img {
+    grid-area: img;
+    display: flex;
+    width: 35rem;
+}
+
+.introduction {
+    grid-area: intro;
     padding-left: 1rem;
+}
+
+.installation {
+    grid-area: install;
+    display: flex;
+    justify-content: space-between;
+}
+
+.installation .content {
+    max-width: 40rem;
+}
+
+.installation .code-snippet-iframe{
+    width: 100%;
 }
