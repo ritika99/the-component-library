@@ -39,8 +39,8 @@
 }
 
 .container {
-    margin: 1rem;
-    padding: 1rem;
+    margin-left: 1rem;
+    padding-left: 1rem;
 }
 
 .container-inside {
@@ -71,6 +71,7 @@ body {
     overflow:scroll;
     width: 100%;
     height: 100%;
+    margin-bottom: 1rem;
 }
 
 hr {
