@@ -39,7 +39,7 @@
     color: var(--white-color);
     text-align: center;
     position: absolute;
-    right: 0rem;
+    right: 0;
     box-sizing: border-box;
 }
 
