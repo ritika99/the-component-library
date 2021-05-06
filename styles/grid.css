@@ -1,23 +1,5 @@
 @import "./styles.css";
 
-main {
-    display: grid;
-    grid-template-areas: 
-    "navside doc doc doc"
-    "navside doc doc doc";
-    top: 4rem;
-    position: relative;
-}
-
-.nav-side {
-    grid-area: navside;
-}
-
-.doc {
-    grid-area: doc;
-    padding: 0rem 1rem;
-}
-
 .main-getting-started {
     display: grid;
     grid-template-areas: 
@@ -50,4 +32,8 @@ main {
 
 .installation .code-snippet-iframe{
     width: 100%;
+}
+
+.grid-column-2 {
+    border: 1px solid black;
 }
