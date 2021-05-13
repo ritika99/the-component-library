@@ -1,0 +1,14 @@
+@import "./styles.css";
+
+.modal {
+    border: 1px solid var(--primary-color);
+    border-radius: 0.25rem;
+    margin: 0.2rem;
+    padding: 1rem 1.2rem;
+    max-width: 21.67rem;
+}
+
+.modal .modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+}

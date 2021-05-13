@@ -1,19 +1,36 @@
 @import "./styles.css";
 
-main {
+.main-getting-started {
     display: grid;
     grid-template-areas: 
-    "navside doc doc doc"
-    "navside doc doc doc";
-    position: relative;
+    "img img intro intro"
+    "install install install install";
     top: 4rem;
+    position: relative;
 }
 
-.nav-side {
-    grid-area: navside;
+.main-img {
+    grid-area: img;
+    display: flex;
+    width: 35rem;
 }
 
-.doc {
-    grid-area: doc;
+.introduction {
+    grid-area: intro;
     padding-left: 1rem;
 }
+
+.installation {
+    grid-area: install;
+    display: flex;
+    justify-content: space-between;
+}
+
+.installation .content {
+    max-width: 40rem;
+}
+
+.installation .code-snippet-iframe{
+    width: 100%;
+}
+

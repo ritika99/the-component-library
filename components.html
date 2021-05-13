@@ -176,38 +176,86 @@
         </div>
     </div>
 
+    <!-- modal -->
+    <h3>Modal</h3>
+    <div class="modal">
+        <div>
+            <h4 class="text-justify no-margin">Are you sure you want to permanently erase the items in the Trash?</h4>
+            <p class="para-text-md">You can’t undo this action.</p>
+        </div>
+        <div class="modal-buttons">
+            <button class="btn btn-outlined">Cancel</button>
+            <button class="btn btn-primary">Delete</button>
+        </div>
+    </div>
+
     <h3>Badge</h3>
     <div class="container">
         <small>Notification</small>
         <div class="container container-flex">
             <div class="avatar-badge-status">
+                <img class="avatar" src="./images/animoji_dark.png">
+                <span class="badge-status online"></span>
+            </div>
+
+            <div class="avatar-badge-status">
                 <img class="avatar" src="/images/animoji_dark.png">
-                <span class="badge">O</span>
+                <span class="badge-status offline"></span>
             </div>
 
-            <div class="avatar-outlined-badge-status">
-                <img class="avatar avatar-outlined" src="/images/animoji.png">
-                <span class="badge">.</span>
+            <div class="avatar-badge-status">
+                <img class="avatar" src="/images/animoji_dark.png">
+                <span class="badge-status do-not-disturb"></span>
             </div>
-        </div>
 
-        <div class="container container-flex">
             <div class="avatar-badge-notification">
                 <img class="avatar" src="/images/animoji_dark.png">
-                <span class="badge">.</span>
+                <span class="badge-status notification">12</span>
             </div>
 
-            <div class="avatar-outlined-badge-notification">
+            <div class="avatar-badge-status">
                 <img class="avatar avatar-outlined" src="/images/animoji.png">
-                <span class="badge">.</span>
+                <span class="badge-status online"></span>
+            </div>
+
+            <div class="avatar-badge-status">
+                <img class="avatar avatar-outlined" src="/images/animoji.png">
+                <span class="badge-status offline"></span>
+            </div>
+
+            <div class="avatar-badge-status">
+                <img class="avatar avatar-outlined" src="/images/animoji.png">
+                <span class="badge-status do-not-disturb"></span>
+            </div>
+
+            <div class="avatar-badge-notification">
+                <img class="avatar avatar-outlined" src="/images/animoji.png">
+                <span class="badge-status notification">8</span>
             </div>
         </div>
 
         <div class="container container-flex">
             <div class="icon-badge-notification">
-                <img class="avatar" src="/images/animoji_dark.png">
-                <span class="badge">.</span>
+                <i class="icon fas fa-shopping-cart"></i>
+                <span class="badge-status notification">3</span>
             </div>
+
+            <div class="icon-badge-notification">
+                <i class="icon icon-primary fas fa-shopping-cart"></i>
+                <span class="badge-status notification notification-success">7</span>
+            </div>
+        </div>
+
+        <div class="container container-flex">
+            <span class="badge">Badge</span>          
+            <span class="badge badge-round-right">right</span>          
+            <span class="badge badge-round">round</span>            
+            <span class="badge badge-round-left">left</span>
+
+            <span class="badge badge-outlined">Badge</span>
+            <span class="badge badge-outlined badge-round-right">right</span>
+            <span class="badge badge-outlined badge-round">round</span>
+            <span class="badge badge-outlined badge-round-left">left</span>
         </div>
     </div>
 
@@ -244,6 +292,17 @@
         </div>
     </div>
 
+     <!-- Ratings -->
+     <h3>Ratings</h3>
+     <div class="container">
+         <span class="icon-star fa fa-star checked"></span>
+         <span class="icon-star fa fa-star checked"></span>
+         <span class="icon-star fa fa-star"></span>
+         <span class="icon-star fa fa-star"></span>
+         <span class="icon-star fa fa-star"></span>
+     </div>
+
+     <!-- Cards -->
     <h3>Cards</h3>
     <small>Card with badges</small>
     <div class="container container-flex">
@@ -554,6 +613,8 @@
         <img class="image-responsive image-round" src="images/cover-image-cat.jpeg">
     </div>
 
+
+
     <!-- input  -->
     <h3>Input</h3>
     <div class="container">
@@ -573,8 +634,47 @@
     
         <div class="input-icon-text">
             <span class="icon-search"><i class="fas fa-search"></i></span>
-            <input class="input-text" type="text" placeholder="Search"></body>
+            <input class="input-text" type="text" placeholder="Search"></input>
         </div>
+    </div>
+
+    <!-- Typography -->
+    <h3>Typography</h3>
+    <small>Heading</small>
+    <div class="container">
+        <h1>Heading h1</h1>
+        <h2>Heading h2</h2>
+        <h3>Heading h3</h3>
+        <h4>Heading h4</h4>
+        <h5>Heading h5</h5>
+        <h6>Heading h6</h6>
+    </div>
+
+    <small>Paragraph</small>
+    <div class="container">
+        <p>This is a paragraph text.</p>
+        <p class="para-text-sm">This is a small paragraph text.</p>
+        <p class="para-text-md">This is a medium paragraph text.</p>
+        <p class="para-text-rg">This is a regular paragraph text.</p>
+        <p class="para-text-lg">This is a large paragraph text.</p>
+    </div>
+
+    <small>Text alignment</small>
+    <div class="container">
+        <h3 class="text-left">Text align left!</h3>
+        <h3 class="text-centre">Text align centre!</h3>
+        <h3 class="text-right">Text align right!</h3>
+        <p class="text-justify">Text align justify. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nemo dolores quae sequi perspiciatis iusto tempore asperiores sapiente expedita culpa cumque aliquam error maiores vitae eum, quidem inventore magni excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consectetur deleniti optio labore iste suscipit quo quisquam temporibus reprehenderit perspiciatis ex, harum velit? Reiciendis ratione, eligendi veritatis voluptates illum distinctio.</p>
+    </div>
+
+    <small>Decorated text</small>
+    <div class="container">
+        <h1 class="text-colored">This is a colored heading</h1>
+        <p class="text-colored">This is a colored paragraph text.</p>
+        <p class="text-line-through text-light">This is a striked through text.</p>
+        <p>This is a <span class="text-highlight">  highlighted</span> text.</p>
+        <p class="text-bold">This is a bold text.</p>
+        <p class="text-light">This is a light weight text.</p>
     </div>
     
     <!-- list -->
@@ -706,7 +806,7 @@
             <div class="nav-right">
                 <div class="input-icon-text">
                     <span class="icon-search"><i class="fas fa-search"></i></span>
-                    <input class="input-text" type="text" placeholder="Search"></body>
+                    <input class="input-text" type="text" placeholder="Search"></input>
                 </div>
                 <div class="">
 
@@ -725,45 +825,7 @@
             </div>
         </div>
     </nav>
-
-    <!-- Typography -->
-    <h3>Typography</h3>
-    <small>Heading</small>
-    <div class="container">
-        <h1>Heading h1</h1>
-        <h2>Heading h2</h2>
-        <h3>Heading h3</h3>
-        <h4>Heading h4</h4>
-        <h5>Heading h5</h5>
-        <h6>Heading h6</h6>
-    </div>
-
-    <small>Paragraph</small>
-    <div class="container">
-        <p>This is a paragraph text.</p>
-        <p class="para-text-sm">This is a small paragraph text.</p>
-        <p class="para-text-md">This is a medium paragraph text.</p>
-        <p class="para-text-rg">This is a regular paragraph text.</p>
-        <p class="para-text-lg">This is a large paragraph text.</p>
-    </div>
-
-    <small>Text alignment</small>
-    <div class="container">
-        <h3 class="text-left">Text align left!</h3>
-        <h3 class="text-centre">Text align centre!</h3>
-        <h3 class="text-right">Text align right!</h3>
-        <p class="text-justify">Text align justify. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nemo dolores quae sequi perspiciatis iusto tempore asperiores sapiente expedita culpa cumque aliquam error maiores vitae eum, quidem inventore magni excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consectetur deleniti optio labore iste suscipit quo quisquam temporibus reprehenderit perspiciatis ex, harum velit? Reiciendis ratione, eligendi veritatis voluptates illum distinctio.</p>
-    </div>
-
-    <small>Decorated text</small>
-    <div class="container">
-        <h1 class="text-colored">This is a colored heading</h1>
-        <p class="text-colored">This is a colored paragraph text.</p>
-        <p class="text-line-through text-light">This is a striked through text.</p>
-        <p>This is a <span class="text-highlight">  highlighted</span> text.</p>
-        <p class="text-bold">This is a bold text.</p>
-        <p class="text-light">This is a light weight text.</p>
-    </div>
+    
 
 </body>
 

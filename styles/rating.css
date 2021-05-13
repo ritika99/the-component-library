@@ -1,0 +1,13 @@
+@import "./styles.css";
+
+.icon-star {
+    color: var(--secondary-color);
+}
+
+.icon-star:hover {
+    color: var(--primary-color);
+}
+
+.checked {
+    color: var(--primary-color);
+}

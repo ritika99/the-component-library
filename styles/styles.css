@@ -1,18 +1,26 @@
-@import "root.css";
-@import "button.css";
-@import "avatar.css";
-@import "badge.css";
-@import "toast.css";
-@import "alert.css";
-@import "card.css";
-@import "input.css";
-@import "list.css";
-@import "image.css";
-@import "navbar.css";
-@import "typography.css";
-@import "grid.css";
-@import "main.css";
+@import "./root.css";
+@import "./button.css";
+@import "./avatar.css";
+@import "./badge.css";
+@import "./toast.css";
+@import "./alert.css";
+@import "./card.css";
+@import "./input.css";
+@import "./list.css";
+@import "./image.css";
+@import "./navbar.css";
+@import "./typography.css";
+@import "./grid.css";
+@import "./main.css";
+@import "./rating.css";
+@import "./footer.css";
+@import "./modal.css";
 
+.grid-column-2{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    position: relative;
+}
 
 .container-flex {
     display: flex;
@@ -20,6 +28,11 @@
     justify-content: space-evenly;
     margin: 1rem;
     align-items: center;
+}
+
+.flex-right {
+    align-content: flex-end;
+    justify-content: left;
 }
 
 .container-flex-column {
@@ -32,8 +45,8 @@
 }
 
 .container {
-    margin: 1rem;
-    padding: 1rem;
+    margin-left: 1rem;
+    padding-left: 1rem;
 }
 
 .container-inside {
@@ -47,7 +60,8 @@ body {
     color: white; */
     font-family: 'Lato', sans-serif;
     font-size: 1em;
-    margin: 0rem;
+    margin: 0;
+    position: relative;
 }
 
 .code-snippet-iframe {
@@ -63,8 +77,13 @@ body {
     overflow:scroll;
     width: 100%;
     height: 100%;
+    margin-bottom: 1rem;
 }
 
 hr {
     color: var(--light-gray);
+}
+
+.no-margin {
+    margin: 0;
 }

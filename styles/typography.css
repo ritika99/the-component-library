@@ -52,3 +52,13 @@
 .text-light {
     font-weight: lighter;
 }
+
+.text-link {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.text-link:hover {
+    color: black;
+    color: var(--hover-color);
+}

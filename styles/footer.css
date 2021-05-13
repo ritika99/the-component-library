@@ -1,0 +1,33 @@
+@import "./styles.css";
+
+.footer {
+    margin: 0rem;
+    margin-top: 1rem;
+    position: fixed;
+    bottom: 0rem;
+    left: 0rem;
+    right: 0rem;
+    background-color: var(--secondary-dark-color);
+    color: var(--white-color);
+    padding: 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h4 {
+    margin: 0rem;
+}
+
+.footer-icon-link {
+    width: fit-content;
+}
+
+.footer-icon-link .nav-link {
+    color: white;
+}
+
+.footer-icon-link .nav-link:hover {
+    color: var(--primary-color);
+}
