@@ -100,9 +100,9 @@
     color: var(--white-color);
 } */
 
-/* .nav-side-sticky {
+.nav-side-sticky {
     position: -webkit-sticky;
     position: sticky;
     top: 4rem;
-} */
+}
 
